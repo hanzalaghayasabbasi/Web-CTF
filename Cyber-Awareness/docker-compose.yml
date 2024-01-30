@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  vulnerable_web1:
+    image: hanzalaghayasabbasi/vulnerable_web3:w3
+    ports:
+      - "0:8800"
+    container_name: web3_challenge
