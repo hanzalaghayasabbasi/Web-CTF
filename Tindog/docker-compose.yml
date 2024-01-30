@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  vulnerable_web1:
+    image: hanzalaghayasabbasi/vulnerable_web1:w1
+    ports:
+      - "0:80"
+    container_name: web1_challenge
